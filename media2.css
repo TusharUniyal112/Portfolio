@@ -1,0 +1,348 @@
+@media screen and (max-width: 800px), screen and (max-height: 700px) {
+ body{
+    overflow-x: hidden;
+
+ }
+    h1 {
+    font-size: 63px;
+    font-family: "Quicksand", sans-serif;
+    padding-top: 24vh;
+    padding-left: 11vw;
+    color: whitesmoke;
+    display: inline-block;
+    width: -1vw;
+    word-wrap: normal;
+  }
+
+  h6 {
+    font-size: 20px;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    margin-left: 12vw;
+    margin-top: 1vh;
+    word-wrap: normal;
+  }
+  #btn1 {
+    width: 24vw;
+    height: 5vh;
+    margin-left: 12.5vw;
+    margin-top: 1vh;
+    background-color: #f06d55;
+    color: #f1e3e3;
+    border-radius: 2px;
+    border: 0px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+  }
+  #logoimgheader {
+    width: 54vw;
+    height: 50vh;
+    margin-left: 4vw;
+    margin-top: 16vw;
+}
+.full {
+    display: flex;
+    justify-content: space-around;
+    width: 102vw;
+    height: 38vh;
+    background-color: #1f1f1f;
+}
+  #imgofresume {
+    width: 37px;
+    position: absolute;
+    left: -3px;
+    top: -5px;
+  }
+  #btn-resume {
+    width: 104px;
+    padding: 6px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    text-align: end;
+    background-color: #f06d55;
+    color: white;
+    border: 0px solid;
+    border-radius: 2px;
+    font-size: 8px;
+  }
+  #h3p2 {
+    color: white;
+    font-size: 3vw;
+  }
+  #parap2 {
+    color: white;
+    font-size: 2.5vw;
+    text-transform: capitalize;
+    text-decoration: none;
+    word-wrap: normal;
+  }
+  #isth3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 4vw;
+  }
+  #istpara {
+    max-width: 51vw;
+    font-size: 3vw;
+    color: white;
+  }
+  #project-text {
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    color: white;
+    font-size: 42px;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    margin-left: 52px;
+    text-transform: uppercase;
+  }
+  #div2ofGreend > h4 {
+    font-family: "Sono";
+    font-size: 3vw;
+  }
+  #div2ofGreend > h5 {
+    font-size: 7vw;
+    font-family: "Sono";
+  }
+  #div2ofGreend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10vw;
+    color: white;
+    background-color: #f06d55;
+    width: 28vw;
+    height: 46vh;
+    border-radius: 3px;
+    align-items: center;
+}
+  #div1ofGreend {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #f06d55;
+    border-radius: 4px;
+    height: 72vh;
+    width: 45vw;
+  }
+  #div1ofGreend > h4 {
+    font-size: 6vw;
+    font-family: sono;
+  }
+  #div1ofGreend {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #f06d55;
+    border-radius: 4px;
+    height: 58vh;
+    width: 48vw;
+}
+#div1ofGreend>h5 {
+    font-size: 2vw;
+    font-family: 'Sono';
+    text-align: center;
+}
+  p {
+    font-size: 3vw;
+    text-align: center;
+  }
+  #fdiv {
+    display: flex;
+    height: 35vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1f1f1f;
+    color: #ffffff;
+    width: 102vw;
+}
+  .footerhead {
+    font-size: 7vw;
+    margin-top: -21px;
+    font-family: sono;
+  }
+  .sname {
+    font-size: 4.4vw;
+  }
+  .num {
+    margin: 15px;
+  }
+  #maindivedsc {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    height: 88vh;
+    align-items: center;
+    margin-left: 2vw;
+}
+  .carousel-wrapper {
+    height: 312px;
+    position: relative;
+    width: 660px;
+    display: block;
+    left: 0vw;
+    margin: 50px auto;
+}
+  body {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 630px), screen and (max-height: 700px) {
+  h1 {
+    font-size: 63px;
+    font-family: "Quicksand", sans-serif;
+    padding-top: 16vh;
+    padding-left: 11vw;
+    color: whitesmoke;
+    display: inline-block;
+    width: -1vw;
+    word-wrap: normal;
+  }
+  #logoimgheader {
+    width: 94vw;
+    height: 66vh;
+    margin-top: 5vw;
+    margin-left: 8vw;
+  }
+
+  #btn1 {
+    width: 16vw;
+    height: 5vh;
+    margin-left: 12.5vw;
+    margin-top: 1vh;
+    background-color: #f06d55;
+    color: #f1e3e3;
+    border-radius: 2px;
+    border: 0px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+  }
+  .container {
+    height: 67vh;
+    width: 99vw;
+    background-size: cover;
+  }
+  #istpara {
+    max-width: 57vw;
+    font-size: 3vw;
+    color: white;
+  }
+  #isth3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 6vw;
+  }
+  .full {
+    display: flex;
+    justify-content: space-around;
+    width: 157vw;
+    background-color: #1f1f1f;
+    height: 24vh;
+  }
+  #h3p2 {
+    color: white;
+    font-size: 4vw;
+  }
+  #parap2 {
+    color: white;
+    font-size: 3.5vw;
+    text-transform: capitalize;
+    text-decoration: none;
+    word-wrap: normal;
+  }
+  #project-text {
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    color: white;
+    font-size: 42px;
+    letter-spacing: 3px;
+    margin-left: 54vw;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  }
+  #maindivedsc {
+    width: 157vw;
+    display: flex;
+    justify-content: space-evenly;
+    height: 52vh;
+    align-items: center;
+  }
+  #div2ofGreend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10vw;
+    color: white;
+    background-color: #f06d55;
+    width: 25vw;
+    height: 32vh;
+    border-radius: 3px;
+    align-items: center;
+  }
+  #div1ofGreend {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #f06d55;
+    border-radius: 4px;
+    height: 45vh;
+    width: 49vw;
+  }
+  p {
+    font-size: 2.5vw;
+    text-align: center;
+  }
+
+  #div1ofGreend > h4 {
+    font-size: 5vw;
+    font-family: sono;
+  }
+  #div1ofGreend > h5 {
+    font-size: 3vw;
+    font-family: "Sono";
+    text-align: center;
+  }
+  #div2ofGreend > h5 {
+    font-size: 5vw;
+    font-family: "Sono";
+  }
+  #div2ofGreend > h4 {
+    font-family: "Sono";
+    font-size: 2vw;
+  }
+
+  #fdiv {
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 157vw;
+    background: #1f1f1f;
+    color: #ffffff;
+  }
+  .sname {
+    font-size: 3.4vw;
+  }
+  .footerhead {
+    font-size: 8vw;
+    margin-top: -21px;
+    font-family: sono;
+  }
+}

@@ -1,44 +1,199 @@
-<!doctype html>
+<script src="/script.js"></script>
+<!DOCTYPE html>
 <html lang="en">
   <head>
- 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="Animation.css">
-    <link rel="stylesheet" href="Animation2.css">
-    <link rel="shortcut icon" href="/image (1) (1).png" type="image/x-icon">
-    <link rel="stylesheet" href="media.css">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="Animation.css" />
+    <link rel="stylesheet" href="Animation2.css" />
+    <link rel="shortcut icon" href="/IMG_9325 (3) (1).jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="crousel.css" />
+    <link rel="stylesheet" href="media3.css" />
+    <link rel="stylesheet" href="media2.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="shortcut icon" href="/logo img header.png" type="image/x-icon">
 
     <title>Tushar Uniyal</title>
   </head>
-  
+
+  <!-- body tag -->
   <body>
-    <div class="container">
-      <!-- <img src="/Logo/शीर्षक-रहित डिज़ाइन.png" alt="" srcset="" id="bgImg"> -->
-      <h1>Tushar Uniyal</h1>
-      <h6>UI/UX Devloper, Programmer</h6>
-      <div class="logoContainer">
-        <a href="https://github.com/TusharUniyal112"><img src="/pngwing.com (2).png" alt="" srcset=""class="logoimg" id="gitlogo"></a>
-        <a href="https://www.linkedin.com/in/tushar-uniyal-672b09250/"><img src="/icons8-github-24.png" alt="" srcset="" class="logoimg"></a>
-        <a href="https://www.facebook.com/tushar.uniyal.9085/"><img src="/pngwing.com (1).png" alt="" srcset=""class="logoimg"></a>
-        <a href="https://www.instagram.com/tushar_uniyal/?next=%2F"><img src="/pngwing.com.png" alt="" srcset=""class="logoimg"></a>
-        <a href="mailto:tusharuniyalji@htmlhints.com"><img src="/pngwing.com (3).png" alt="" srcset="" class="logoimg"></a>
-        <img src="/37360d1d2fac10f49325e0217fe432e4.png" alt="" srcset="" id="vectorlogo">
+    <div id="maincont">
+      <div class="container">
+        <!-- main website header -->
+        <h1>Tushar Uniyal</h1>
+        <h6>UI/UX Devloper, Programmer</h6>
+        <div class="logoContainer">
+          <a href="https://github.com/TusharUniyal112"
+            ><img
+              src="/pngwing.com (2).png"
+              alt=""
+              srcset=""
+              class="logoimg"
+              id="gitlogo"
+          /></a>
+          <a href="https://www.linkedin.com/in/tushar-uniyal-672b09250/"
+            ><img src="/icons8-github-24.png" alt="" srcset="" class="logoimg"
+          /></a>
+          <a href="https://www.facebook.com/tushar.uniyal.9085/"
+            ><img src="/pngwing.com (1).png" alt="" srcset="" class="logoimg"
+          /></a>
+          <a href="https://www.instagram.com/tushar_uniyal/?next=%2F"
+            ><img src="/pngwing.com.png" alt="" srcset="" class="logoimg"
+          /></a>
+          <a href="mailto:tusharuniyalji@htmlhints.com"
+            ><img src="/pngwing.com (3).png" alt="" srcset="" class="logoimg"
+          /></a>
+        </div>
+        <button id="btn1">
+          <a id="btna" href="mailto:tusharuniyalji@htmlhints.com">lets"chat </a>
+        </button>
       </div>
-        <button id="btn1" ><a id="btna" href="mailto:tusharuniyalji@htmlhints.com">lets"chat </a></button>
+      <div>
+        <img id="logoimgheader" src="/logo img header.png" alt="" srcset="" />
+      </div>
     </div>
-
-    <div id=" mainAnimetion">
-    <div class="me"></div>
-      
-
+    <!-- aboutme section starts here -->
+    <div class="me full">
+      <div id="cont1">
+        <h3 id="isth3">About us</h3>
+        <p id="istpara">
+          I am extremely proficient in Front-End Development using HTML5,
+          Cascade Style Sheets (CSS3), Bootstrap, Advance Javascript and
+          continuously engage in trying to extend my skills with new technology.
+        </p>
+      </div>
+      <div id="cont2">
+        <h3 id="h3p2">Any Type Of Query &amp; Discussion</h3>
+        <a href="mailto:tusharuniyalji@htmlhints.com" id="parap2"
+          >tusharuniyalji@gmail.com</a
+        ><a
+          href="https://drive.google.com/file/d/1wrXHFQNb3D4ofPwXxCEeGFXyUQY499BJ/view?usp=share_link"
+          id="resanc"
+          ><button id="btn-resume">
+            Download Resume<img
+              src="https://www.linkpicture.com/q/logoofresumebtn.png"
+              id="imgofresume"
+            /></button
+        ></a>
+      </div>
     </div>
+    <!-- about me close here all the elements were manupulated by js -->
+    <h3 id="project-text">Projects</h3>
+    <div class="carousel-wrapper">
+      <span id="item-1"></span>
+      <span id="item-2"></span>
+      <span id="item-3"></span>
+      <div class="carousel-item item-1">
+        <p class="info">Functional Calculator</p>
+        <p class="infodes2">
+          User Can Easily Calculate Mathematical Operations
+        </p>
+        <a href="#item-3" class="arrow-prev arrow"></a>
+        <a href="#item-2" class="arrow-next arrow"></a>
+      </div>
 
-    <div class="skill">
-      <h2 id="mainh2">Education & skills</h2>
+      <div class="carousel-item item-2">
+        <p class="info">Postal Portal</p>
+        <p class="infodes">
+          To get Nearby Post Office Information User Have To Enter Their 6-Digit
+          Pin-Cord
+        </p>
+        <a href="#item-1" class="arrow-prev arrow"></a>
+        <a href="#item-3" class="arrow-next arrow"></a>
+      </div>
+
+      <div class="carousel-item item-3">
+        <p class="info">Tannis Counter game</p>
+        <p class="infodes3">Normal Tannis Score Counter game</p>
+        <a href="#item-2" class="arrow-prev arrow"></a>
+        <a href="#item-1" class="arrow-next arrow"></a>
+      </div>
     </div>
-    <script src="/script.js"></script>
+    <!-- Education and skill section begain -->
+    <div id="maindivedsc">
+      <img
+        src="https://www.linkpicture.com/q/root-plant-cartoon-vector-symbol-icon-design-beautiful-illustr-illustration-isolated-white-background-94022885-removebg-preview.png"
+      />
+      <div id="div1ofGreend">
+        <h4>EDUCATION</h4>
+        <h5>Bachelors's in Computer Application</h5>
+        <p>
+          Pursuing my undergraduate Indira Gandhi National Open University,
+          completing in 2025
+        </p>
+        <h5>Senior Secondary School,CBSE,New-Delhi</h5>
+        <p>Completed my high-schooling from Gagan Bharti Sr. Sec.School</p>
+      </div>
+      <div id="div2ofGreend">
+        <h5>SKILLS</h5>
+        <h4>
+          HTML5<img
+            src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png"
+            id="htmllogo"
+          />
+        </h4>
+        <h4>
+          CSS3<img
+            src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png"
+            id="csslogos"
+          />
+        </h4>
+        <h4>
+          JAVA-SCRIPT<img
+            src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"
+            id="jslogo"
+          />
+        </h4>
+      </div>
+    </div>
+    <!-- Education and skill section closed here and all the elements wew munpulated by js -->
+    <div id="footer">
+      <div id="fdiv">
+        <!-- footer section begain here -->
+        <h5 class="footerhead">STAY CONNECTED</h5>
+        <p class="sname">New Delhi, India</p>
+        <a id="btna" href="mailto:tusharuniyalji@htmlhints.com"
+          >tusharuniyalji@gmail.com</a
+        >
+        <p class="num">(+91 9891915642)</p>
+        <div class="logoContainer2">
+          <a href="https://github.com/TusharUniyal112"
+            ><img
+              src="/pngwing.com (2).png"
+              alt=""
+              srcset=""
+              class="logoimg2"
+              id="gitlogo2"
+          /></a>
+          <a href="https://www.linkedin.com/in/tushar-uniyal-672b09250/"
+            ><img src="/icons8-github-24.png" alt="" srcset="" class="logoimg2"
+          /></a>
+          <a href="https://www.facebook.com/tushar.uniyal.9085/"
+            ><img src="/pngwing.com (1).png" alt="" srcset="" class="logoimg2"
+          /></a>
+          <a href="https://www.instagram.com/tushar_uniyal/?next=%2F"
+            ><img src="/pngwing.com.png" alt="" srcset="" class="logoimg2"
+          /></a>
+          <a href="mailto:tusharuniyalji@htmlhints.com"
+            ><img src="/pngwing.com (3).png" alt="" srcset="" class="logoimg2"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <!-- footer section closed here here -->
+
+    <!-- js script there -->
   </body>
-  </html>
+</html>

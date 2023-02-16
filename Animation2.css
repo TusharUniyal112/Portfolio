@@ -1,94 +1,85 @@
-.skill {
-    background-color: #57c2ff;
-    width: 0vw;
-    height: 63vh;   
-    transition-duration: 1.5s;
-    float: right;
+.null{
+  background-color: #1f1f1f;
 }
-  .null{
-    width: 100vw;;
-    background-color: #66a5ff;
-  
-  }
+#maindivedsc {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  height: 52vh;
+  align-items: center;
+}
+#mainh2 {
+  display: flex;
+  justify-content: center;
+  color: white;
 
-  #green1,#green2{
-    width: 20vw;
-    height: 20vh;
-    border: 2px solid black;
-    background-color: aqua;
-
-  }
-  #maindivedsc{
-    height: 52vh;
-    display: flex;
-  
 
 }
+
 #div1ofGreend {
-  border: 1px solid;
-  margin-right: 20vw;
-  margin-left: 20vh;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  color: white;
+  background-color: #f06d55;
+  border-radius: 4px;
+  height: 45vh;
+  width: 25vw;
+}
+#div1ofGreend>h5 {
+  font-size: 1vw;
+  font-family: 'Sono';
   text-align: center;
-  color: #41607b;
-  background-color: #edfbffcf;
-  border: 0px;
-  border-radius: 6px;
+}
+#div1ofGreend>h4 {
+  font-size: 2vw;
+  font-family: sono;
+}
+
+p {
+  font-size: 1vw;
+  text-align: center;
+}
+#csslogos{
+  width: 49px;
+  height: 33px;
+  float: left;
+}
+#htmllogo{
+  width: 49px;
+  height: 33px;
+  float: left;
+}
+#jslogo{
+  width: 49px;
+  height: 33px;
+  float: left;
+}
+
+#div2ofGreend>h4 {
+  font-family: 'Sono';
+  font-size: 1vw;
+}
+#div2ofGreend>h5 {
+  font-size: 2vw;
+  font-family: 'Sono';
 }
 #div2ofGreend {
-  border: 1px solid;
-  width: 30vw;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
-  text-align: center;
-  /* border: 0px solid white; */
-  color: #2a3c4c;
-  background-color: #edfbffcf;
-  border: 0px;
-  border-radius: 6px;
-  height: 184px;
-  margin-top: 13vh;
+  margin-right: 10vw;
+  color: white;
+  background-color: #f06d55;
+  width: 15vw;
+  height: 32vh;
+  border-radius: 3px;
+  align-items: center;
 }
-
-#div1ofGreend>h5{
-  font-size: 29px;
-  color: #2a3c4c;
-}
-#divofGreend>h4{
-  
-    font-size: 2vw;
-
-}
-#div2ofGreend>h4 {
-  font-size: 22px;
-  color: #2e84cf;
-}
-
-#div2ofGreend>h5{
-  font-size: 33px;
-  color: #2a3c4c;
-}
-
-#div2ofGreend>h4{
-  font-size: 22px;
-  color: #2a3c4c;
-}
-#maindivedsc{
-  position: relative;
-}
-#maindivedsc>img{
-  position: absolute;
-  width: 360px;
-  left: 42.5vw;
-  top: -100px;
-  z-index: 1;
-}
-
-#div1ofGreend>h4{
-  
-  font-size: 27px;
-
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #222;
 }

@@ -1,93 +1,125 @@
-*{
-    margin: 0;
-    padding: 0;
+/* universal */
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #222;
 }
+* {
+  padding: 0;
+  margin: 0;
+}
+/* end */
 
-
-      .container {
-        background-image: url("http://127.0.0.1:5500/Logo/%E0%A4%B6%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%B7%E0%A4%95-%E0%A4%B0%E0%A4%B9%E0%A4%BF%E0%A4%A4%20%E0%A4%A1%E0%A4%BF%E0%A4%9C%E0%A4%BC%E0%A4%BE%E0%A4%87%E0%A4%A8.png");
-        height: 86vh;
-        width: 100vw;
-        background-size: cover;
-      }
-      
-      .logoimg {
-        width: 41px;
-        height: 39px;
-      }
-      h1 {
-        font-size: 60px;
-        font-family: "Quicksand",sans-serif;
-        padding-top: 36vh;
-        padding-left: 18vw;
-        color:whitesmoke;
-      
-      }
-      h6 {
-        font-size: 19px;
-        font-family: "Quicksand",sans-serif;
-        padding-left: 18.5vw;
-        padding-top: 4px;
-        color:whitesmoke;
-      }
-
-
-      .logoContainer {
-        padding-left: 18.5vw;
-        padding-top: 9px;
-          width: 60px;
-          height: 61px;
-          display:flex;
-          flex-direction: row;
-        
-      }
-      #vectorlogo{
-        margin-left: 8vw;
-        width: 38vw;
-        height: 34vh;
-        display: inline-block;
-      }
-   #btn1 {
-  width: 9vw;
+/* #2 header with image section with chat button */
+.container {
+  height: 77vh;
+  width: 99vw;
+  background-size: cover;
+}
+#maincont {
+  display: flex;
+}
+#logoimgheader {
+  width: 67vw;
+  height: 70vh;
+  margin-top: 5vw;
+}
+h1 {
+  font-size: 63px;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 24vh;
+  padding-left: 11vw;
+  color: whitesmoke;
+  display: inline-block;
+  width: -1vw;
+  word-wrap: normal;
+}
+h6 {
+  font-size: 20px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 12vw;
+  margin-top: 1vh;
+  word-wrap: normal;
+}
+.logoContainer {
+  padding-left: 11.5vw;
+  padding-top: 12px;
+  width: 42px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  display: none;
+}
+#btn1 {
+  width: 8vw;
   height: 5vh;
-  margin-left: 18.5vw;
-  margin-top: 2vh;
-  background-color: rgb(255 255 255);
-  /* --darkreader-inline-bgcolor: #191c1d; */
-  color: black;
-  border-radius: 29px;
+  margin-left: 12.5vw;
+  margin-top: 1vh;
+  background-color: #f06d55;
+  color: #f1e3e3;
+  border-radius: 2px;
   border: 0px;
-  font-family: "Quicksand",sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
 }
-#btna{ 
+/* header with image section with chat button closed */
+
+#fdiv {
+  display: flex;
+  height: 30vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5dbda;
+  color: #57c2ff;
+  flex-wrap: wrap;
+}
+
+.sname {
+  font-size: 21px;
+  word-wrap: normal;
+}
+#btna {
   text-decoration: none;
-  color: #93b2ff;
+  color: #5bc3e8;
   text-transform: capitalize;
 }
-        
-.aboutmecont {
-  background-color: rgb(224, 29, 29);
-  width: 100.9%;
-  height: 26vh;
+.num {
+  margin: 7px;
 }
-
-#mainh2 {
-  /* align-content: center; */
+#fdiv {
   display: flex;
+  height: 30vh;
+  flex-direction: column;
   justify-content: center;
-  font-family: "Quicksand",sans-serif;
-  height: 7vh;
   align-items: center;
-  color: white;
-  position: relative;
-  z-index: 2;
+  background-color: #d5dbda;
+  color: #57c2ff;
 }
- 
-
-
-  
-        
-        
-      
-      
+.logoimg {
+  width: 41px;
+  height: 39px;
+}
+#img1 {
+  width: 18vw;
+  position: absolute;
+  top: 14vh;
+  right: 40vw;
+  display: inline-block;
+  visibility: hidden;
+}
+#maindivedsc > img {
+  position: absolute;
+  width: 360px;
+  left: 42.5vw;
+  top: -100px;
+  z-index: 1;
+  visibility: hidden;
+}
+#btna {
+  text-decoration: none;
+  color: #eeeeee;
+  text-transform: capitalize;
+}

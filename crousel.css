@@ -1,0 +1,99 @@
+#css {
+  color: yellow;
+  font-family: "Odibee Sans", cursive;
+}
+
+.carousel-wrapper {
+  height: 400px;
+  position: relative;
+  width: 800px;
+  display: block;
+  margin: 50px auto;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px 50px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.arrow {
+  border: solid #f4e9e9bf;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 12px;
+}
+.arrow-prev {
+  left: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(135deg);
+}
+.arrow-next {
+  right: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+[id^="item"] {
+  display: none;
+}
+.item-1 {
+  z-index: 2;
+  opacity: 1;
+  background: url("/calculator\ img.png");
+  background-size: cover;
+  border-radius: 5px;
+}
+.item-2 {
+  background: url("/Screenshot\ 2023-02-15\ 175951.png");
+  background-size: cover;
+  border-radius: 5px;
+}
+.item-3 {
+  background: url("/Tannis.png");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+*:target ~ .item-1 {
+  opacity: 0;
+}
+#item-1:target ~ .item-1 {
+  opacity: 1;
+}
+#item-2:target ~ .item-2,
+#item-3:target ~ .item-3 {
+  z-index: 3;
+  opacity: 1;
+}
+#project-text {
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+  color: white;
+  font-size: 42px;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.info {
+  background-color: #b0a4a47d;
+  height: 83px;
+  display: flex;
+  /* margin-top: 331px; */
+  flex-direction: column-reverse;
+  position: absolute;
+  width: 100%;
+  margin-left: -49px;
+  bottom: 1px;
+  justify-content: center;
+  color: white;
+  font-size: x-large;
+}
